@@ -1,0 +1,24 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+#welcome-section {
+  height: 55vh;
+  padding-top: 45vh;
+  color: whitesmoke;
+  background-color: blue;
+}
+
+.project-image {
+  width: 250px;
+}
+
+.project-tile {
+  display: inline-block;
+  border: 1px aquamarine solid;
+  width: auto;
+  height: 250px;
+}
+
