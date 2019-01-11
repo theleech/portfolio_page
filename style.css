@@ -8,7 +8,31 @@ html, body {
   height: 55vh;
   padding-top: 45vh;
   color: whitesmoke;
-  background-color: blue;
+  background-image: url(background.png);
+  background-attachment: fixed;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.color-overlay {
+  display: inline-block;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.color-overlay h1, p {
+  color: black;
+  opacity: 1.0;
+}
+
+#projects {
+  height: 55vh;
+  padding-top: 45vh;
+  background-color: black;
+  color: white;
 }
 
 .project-image {
@@ -21,4 +45,6 @@ html, body {
   width: auto;
   height: 250px;
 }
+
+
 
