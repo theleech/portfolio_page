@@ -17,6 +17,7 @@ h1 {
   font-size: 2em;
   font-variant:small-caps;
   text-transform: capitalize;
+  margin-top: 50px;
 }
 
 h2 {
@@ -58,7 +59,7 @@ nav {
 #welcome-section {
   height: 55vh;
   padding-top: 45vh;
-  background-image: url(background.png);
+  background-image: url(project-final.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -137,4 +138,79 @@ nav {
 
 .column li {
   margin-bottom: 10px;
+}
+
+.fa-arrow-circle-down {
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: #001127;
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+  }
+
+  #navbar li {
+    margin-right: 30px;
+  }
+
+  #navbar a {
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  .section-grid {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+  }
+
+  .project-tile {
+    width: 300px;
+  }
+
+  .end {
+    justify-self: end;
+  }
+
+  .design-image {
+    width: 70%;
+  }
+
+  #about p {
+    font-size: 1.25em;
+  }
+
+  .profile-pic {
+    width: 125px;
+  }
+
+  #links ul {
+    padding-left: 45%;
+    margin: 40px 0;
+  }
+
+}
+
+@media (min-width: 960px) {
+  
 }
