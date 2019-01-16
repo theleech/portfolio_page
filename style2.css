@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  text-align: center;
+  overscroll-behavior: none;
+  font-family: 'Thasadith', sans-serif;
+  background-color: #001127;
+  color: whitesmoke;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 2em;
+  font-variant:small-caps;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: capitalize
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+  #navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  }
+
+nav {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: #001127;
+}
+
+#welcome-section {
+  height: 55vh;
+  padding-top: 45vh;
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: content-box;
+}
+
+.section {
+  padding-top: 60px;
+}
+
+.project-image {
+  width: 90%;
+}
+
+.project-tile {
+  display: inline-block;
+  width: 80%;
+  height: auto;
+  margin: 20px 0;
+  padding: 3% 0;
+  font-weight: bold;
+}
+
+.project-tile p {
+  margin: 5px;
+}
+
+.white-border {
+  border: 1px whitesmoke solid;
+  border-radius: 3px;
+}
+
+.design-image {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.profile-pic {
+  width: 100px;
+  border: 2px white solid;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+#about p {
+  font-size: 1.1em;
+  width: 80%;
+  margin: 20px auto;
+}
+
+#links ul {
+  width: 80%;
+  margin: 20px auto 40px;
+  padding-left: 115px;
+}
+
+#footer a {
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+#footer {
+  height: 60px;
+  background-color: black;
+  border-top: 0.2px white solid;
+  padding: 9px 0;
+}
+
+#footer p {
+  margin: auto;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.column li {
+  margin-bottom: 10px;
+}

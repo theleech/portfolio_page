@@ -3,63 +3,92 @@
   <head>
     <meta charset="UTF-8">
     <title>Lea's Portfolio Page</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/0a1d0a577b.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
 
   <body>
+    
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#designs">Designs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+   
     <div id="welcome-section" class="intro">
-      <div class="color-overlay">
-        <h1>This page is about me</h1>
-        <p>I'm a person</p>
+      <div class="intro-text">
+        <h1>Hi, I'm Lea, welcome to my portfolio!</h1>
+        <a href="#projects"><i class="fas fa-arrow-circle-down"></i></a>
+      
       </div>
     </div>
 
     
 
-    <div id="projects">
+    <div id="projects" class="section">
       <h2>Here are some of my projects</h2>
       
-        <a href="https://codepen.io/the_leech/full/gBowzG" target="_blank" class="project-tile">
-          <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/carl-sagan-tribute.png" alt="screenshot of my Carl Sagan tribute page">
+        <a href="https://codepen.io/the_leech/full/gBowzG" target="_blank" class="project-tile white-border">
+          <img class="project-image white-border" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/carl-sagan-tribute.png" alt="screenshot of my Carl Sagan tribute page">
           <p>Carl Sagan Tribute Page</p>
         </a>
-        <a href="https://codepen.io/the_leech/full/wYxjVa" target="_blank" class="project-tile">
-          <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/seashell-survey.png" alt="screenshot of my Carl Sagan tribute page">
+        <a href="https://codepen.io/the_leech/full/wYxjVa" target="_blank" class="project-tile white-border">
+          <img class="project-image white-border" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/seashell-survey.png" alt="screenshot of my Carl Sagan tribute page">
           <p>Seashell Survey Form</p>
         </a>
-        <a href="https://codepen.io/the_leech/full/rQNdpr" target="_blank" class="project-tile">
-          <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/cnoptass-landing-page.png" alt="screenshot of my Carl Sagan tribute page">
+        <a href="https://codepen.io/the_leech/full/rQNdpr" target="_blank" class="project-tile white-border">
+          <img class="project-image white-border" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/cnoptass-landing-page.png" alt="screenshot of my Carl Sagan tribute page">
           <p>CNOPTASS Landing Page</p>
         </a>
-        <a href="https://codepen.io/the_leech/full/XyWEVP" target="_blank" class="project-tile">
-          <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/tech-documentation-page.png" alt="screenshot of my Carl Sagan tribute page">
+        <a href="https://codepen.io/the_leech/full/XyWEVP" target="_blank" class="project-tile white-border">
+          <img class="project-image white-border" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/tech-documentation-page.png" alt="screenshot of my Carl Sagan tribute page">
           <p>Technical Documentation Page</p>
         </a>
       
     </div>
 
-    <div id="projects">
-        <h2>...and some of my designs</h2>
-        
-          <a href="https://codepen.io/the_leech/full/gBowzG" target="_blank" class="project-tile">
-            <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/carl-sagan-tribute.png" alt="screenshot of my Carl Sagan tribute page">
-            <p>Carl Sagan Tribute Page</p>
-          </a>
-          <a href="https://codepen.io/the_leech/full/wYxjVa" target="_blank" class="project-tile">
-            <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/seashell-survey.png" alt="screenshot of my Carl Sagan tribute page">
-            <p>Seashell Survey Form</p>
-          </a>
-          <a href="https://codepen.io/the_leech/full/rQNdpr" target="_blank" class="project-tile">
-            <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/cnoptass-landing-page.png" alt="screenshot of my Carl Sagan tribute page">
-            <p>CNOPTASS Landing Page</p>
-          </a>
-          <a href="https://codepen.io/the_leech/full/XyWEVP" target="_blank" class="project-tile">
-            <img class="project-image" src="https://s3.eu-central-1.amazonaws.com/leas-bucket-1/tech-documentation-page.png" alt="screenshot of my Carl Sagan tribute page">
-            <p>Technical Documentation Page</p>
-          </a>
-        
+    <div id="designs" class="section">
+        <h2>...and some of my designs</h2>       
+        <img class="design-image white-border" src="designs/flyer.png" alt="">  
+      
+        <img class="design-image white-border" src="designs/cafe-oper.png" alt="">
+    
+        <img class="design-image white-border" src="designs/the-botanical.png" alt="">
+                
+        <img class="design-image white-border" src="designs/titelbild-fb.png" alt="">
+    </div>
+
+      <div id="contact" class="section">
+        <h2 class="larger-margin">Let's get in touch!</h2>
+        <div class="row">
+          <div id="about" class="column">
+            <img src="me.jpg" alt="A portrait of me in winter landscape" class="profile-pic">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laboriosam tempora qui quidem ut. Corrupti fuga voluptas neque, veniam tempora, accusamus magni quis laborum, earum facere eos animi placeat cumque?</p>
+          </div>
+          <div id="links" class="column">
+            <ul>
+              <li><a href="mailto:"><i class="icon fas fa-paper-plane"></i> Email</a></li>
+              <li><a href="https://www.linkedin.com/in/lea-schwarke/" target="_blank"><i class="icon fab fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/lea.shavaaarke" target="_blank"><i class="icon fab fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="https://github.com/theleech" target="_blank" id="profile-link"><i class="icon fab fa-github"></i> Github</a></li>
+              <li><a href="https://codepen.io/the_leech/" target="_blank"><i class="icon fab fa-codepen"></i> CodePen</a></li>
+            </ul>
+          </div>
+      </div>
       </div>
 
+      <footer id="footer">
+        <p>
+          © by Lea Schwarke &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp2019<br>Created with &nbsp<i class="fab fa-free-code-camp"></i>&nbsp for <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.
+        </p>
+      </footer>
+
+     
   </body>
 </html>
