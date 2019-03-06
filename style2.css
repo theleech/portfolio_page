@@ -33,6 +33,17 @@ a {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1.25em;
+  transition: 0.5s all ease;
+  }
+}
+
+a:hover {
+  color: #85d0eb;
+}
+
+.project-tile:hover {
+  background-color: whitesmoke;
+  color: #001127;
 }
 
 ul {
