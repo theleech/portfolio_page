@@ -213,4 +213,35 @@ nav {
 
 @media (min-width: 960px) {
   
+  .section-grid {
+    grid-column-gap: 75px;
+  }
+
+  .project-tile {
+    width: 350px;
+  }
+
+  .desktop-grid {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 75px;
+  }
+
+  .design-image {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+
+.end {
+  justify-self: end;
+  }
+
+  .center {
+    align-self: center;
+  }
 }
