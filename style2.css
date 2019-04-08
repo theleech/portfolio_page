@@ -35,7 +35,6 @@ a {
   font-size: 1.25em;
   transition: 0.5s all ease;
   }
-}
 
 a:hover {
   color: #85d0eb;
@@ -242,10 +241,17 @@ nav {
 
   .design-image {
     display: inline-block;
-    width: 400px;
+    width: 600px;
+    max-width: initial;
     height: auto;
     margin: 20px 0;
     font-weight: bold;
+  }
+
+  .design-image-frame {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
   }
 
 .end {
@@ -254,5 +260,14 @@ nav {
 
   .center {
     align-self: center;
+  }
+
+  #contact {
+    min-height: 650px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 60% 40%;
   }
 }
